@@ -5,7 +5,10 @@
 
  void main() {
   float PI = 3.14159f;
-  int radi=1;
+  int radi;
+  String valor;
+  valor=IO.readln ("Introduce un numero: ");
+  radi=Integer.parseInt(valor);
   float longitud;
   longitud=2*PI*radi;
   IO.println(longitud);

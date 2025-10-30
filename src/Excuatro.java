@@ -7,9 +7,13 @@ void main () {
     int a;
     int b;
     int c;
+    String valor;
+    valor=IO.readln ("Introduce un numero: ");
+    a=Integer.parseInt(valor);
+    String valor2;
+    valor2=IO.readln ("Introduce un numero: ");
+    b=Integer.parseInt(valor2);
     IO.println("Abans de canviar");
-    a=5;
-    b=10;
     IO.println(a);
     IO.println(b);
     IO.println("Despres de canviar");

@@ -8,7 +8,9 @@ void main () {
     int horesextra;
     float preuperhora;
     float cobro;
-    horestreballades=50;
+    String valor;
+    valor=IO.readln ("Introduce el numero de horas trabjadas: ");
+    horestreballades=Integer.parseInt(valor);
     preuperhora=10;
     if (horestreballades > 40) {
         horesextra=horestreballades-40;

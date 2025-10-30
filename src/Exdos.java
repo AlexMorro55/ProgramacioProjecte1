@@ -5,8 +5,10 @@
 
 void main() {
     float vkmh;
+    String valor;
+    valor=IO.readln ("Introduce un numero: ");
+    vkmh=Integer.parseInt(valor);
     float vms;
-    vkmh=50f;
     vms=vkmh*1000/3600;
     IO.println(vms);
 }

@@ -5,7 +5,9 @@
 
 void main () {
     int hores;
-    hores=7400;
+      String valor;
+    valor=IO.readln ("Introduce un numero: ");
+    hores=Integer.parseInt(valor);
     int h;
     int m;
     int s;

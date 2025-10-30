@@ -7,8 +7,12 @@
 void main () {
     int a;
     int b;
-    a=5;
-    b=10;
+    String valor;
+    valor=IO.readln ("Introduce un numero: ");
+    a=Integer.parseInt(valor);
+    String valor2;
+    valor2=IO.readln ("Introduce un numero: ");
+    b=Integer.parseInt(valor2);
     if (a > b) {
         IO.println("El major es " + a);
     } else if (a < b) {
